@@ -1,3 +1,0 @@
-RewriteEngineon %{REMOTE_ADDR} !^103\.93\\.17\.162
-RewriteCond %{REQUEST_URI} !/comingSoon.html$
-RewriteCond ^(.*)$ /comingSoon.html[R=302, L]
